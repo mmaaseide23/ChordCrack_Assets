@@ -1,2 +1,2 @@
-# Chordle_Assets
-Audio file assets for Chordle.
+# ChordCrack_Assets
+Audio file assets for ChordCrack.
