@@ -14,25 +14,9 @@
 
 This repository contains professionally recorded guitar chord audio samples created for the **ChordCrack** ear training application. These high-quality samples are now available for the community to use in educational projects, music applications, and development work.
 
-## 🎵 Sample Collection
+## 🎵 Samples:
 
-### Basic Chords
-- **Major Chords**: A, B, C, D, E, F, G
-- **Minor Chords**: Am, Bm, Cm, Dm, Em, Fm, Gm
-
-### Advanced Chords
-- **Power Chords**: E5, A5, D5, G5, C5, F5, B5, F#5, C#5, G#5, D#5, A#5
-- **Barre Chords**: Full barre variations of major and minor chords
-- **7th Chords**: Dominant 7th, Minor 7th, Major 7th variations
-- **Individual Strings**: Separate recordings for progressive learning
-
-### Audio Specifications
-- **Format**: M4A (optimized for mobile) / WAV (high quality)
-- **Sample Rate**: 44.1 kHz
-- **Bit Depth**: 16-bit
-- **Recording**: Clean DI guitar signal, professionally mixed
-- **Duration**: 2-4 seconds per sample
-- **File Naming**: Consistent naming convention for easy integration
+All notes on acoustic guitar from E2 to E5.
 
 ## 🚀 Usage Examples
 
@@ -42,41 +26,6 @@ This repository contains professionally recorded guitar chord audio samples crea
 let chordURL = Bundle.main.url(forResource: "C_major", withExtension: "m4a")
 let audioPlayer = try AVAudioPlayer(contentsOf: chordURL!)
 audioPlayer.play()
-```
-
-### Web Development
-```javascript
-// HTML5 Audio integration
-const audio = new Audio('C_major.m4a');
-audio.play();
-```
-
-### Unity Game Development
-```csharp
-// Unity AudioSource integration
-AudioSource audioSource = GetComponent<AudioSource>();
-AudioClip chordClip = Resources.Load<AudioClip>("C_major");
-audioSource.clip = chordClip;
-audioSource.Play();
-```
-
-## 📋 File Structure
-
-```
-ChordCrack_Assets/
-├── basic-chords/
-│   ├── C_major.m4a
-│   ├── D_major.m4a
-│   └── ...
-├── power-chords/
-│   ├── E5.m4a
-│   ├── A5.m4a
-│   └── ...
-├── individual-strings/
-│   ├── E2_fret0.m4a
-│   ├── A3_fret2.m4a
-│   └── ...
-└── README.md
 ```
 
 ## 📄 License
